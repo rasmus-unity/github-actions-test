@@ -1,9 +1,9 @@
 name: ci
 on: [workflow_dispatch]
 jobs:
-  build:
+  deploy-production:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy
+      - name: Deploy production
         run: |
           echo "Deploy..."
