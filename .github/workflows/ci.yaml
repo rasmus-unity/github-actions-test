@@ -27,7 +27,7 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: docker-image
-          path: github-actions-test-image.tar.gz
+          path: .
 
       - name: Test
         run: ci/test.sh
